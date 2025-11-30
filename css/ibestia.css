@@ -1,0 +1,113 @@
+/* Glow de articulaciones / puntos de energía */
+.ibesia-glow {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    box-shadow: 0 0 25px rgba(0, 255, 204, 0.9);
+    background: radial-gradient(circle, rgba(0,255,204,1) 0%, rgba(0,255,204,0) 70%);
+    animation: ibesia-pulse 2s infinite ease-in-out;
+}
+
+/* Ajusta posiciones si usas una imagen PNG del corredor */
+.ibesia-glow-1 { top: 25%; left: 40%; }
+.ibesia-glow-2 { top: 45%; left: 55%; }
+.ibesia-glow-3 { top: 60%; left: 35%; }
+.ibesia-glow-4 { top: 72%; left: 60%; }
+
+@keyframes ibesia-pulse {
+    0%,100% { transform: scale(0.9); opacity: 0.7; }
+    50% { transform: scale(1.2); opacity: 1; }
+}
+
+/* Iconos con halo */
+.ibesia-icon-glow {
+    text-shadow: 0 0 12px rgba(0, 255, 204, 0.8);
+}
+
+/* Thumbnails de video con efecto pro */
+.ibesia-video-thumb {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.ibesia-video-thumb::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(0,0,0,0.0), rgba(0,255,204,0.25));
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+.ibesia-video-thumb img {
+    transition: transform .4s ease;
+}
+
+.ibesia-video-thumb:hover img {
+    transform: scale(1.05);
+}
+
+.ibesia-video-thumb:hover::before {
+    opacity: 1;
+}
+
+/* Línea de luz detrás de la jeringa */
+.ibesia-line {
+    position: absolute;
+    top: 50%;
+    left: -15%;
+    right: -15%;
+    height: 4px;
+    background: linear-gradient(90deg, rgba(0,0,0,0), #00ffcc, rgba(0,0,0,0));
+    box-shadow: 0 0 20px rgba(0,255,204,0.8);
+    transform: translateY(-50%);
+    opacity: 0.7;
+}
+
+.imagen_slider{
+    background-image: url("../img/portada.jpg");
+}
+
+@media (max-width: 991px) {
+    .imagen_slider{
+        background-image: url("../img/movil3.jpg");
+        background-position: bottom;
+    }
+}
+
+#header .header-btn-collapse-nav{
+    background: #ec993f !important;
+}
+
+.btn-primary:active:not(.bg-transparent), .btn-primary.active:not(.bg-transparent){
+    background-color: #ec993f !important;
+}
+
+.btn-primary:focus:not(.bg-transparent), .btn-primary.focus:not(.bg-transparent){
+    background-color: #ec993f !important;
+}
+
+.btn-primary:active, .btn-primary.active{
+    border-color: #ec993f #ec993f #ec993f !important;
+}
+
+#header .header-nav-main nav > ul > li > a.active:before{
+    border-color: #ec993f !important;
+}
+
+.text-color-primary, .text-primary{
+    color: #ec993f !important;
+}
+.owl-carousel.owl-drag .owl-item{
+    padding: 10px;
+}
+
+#header .header-nav.header-nav-links nav > ul:not(:hover) > li > a.active{
+    color: #ec993f !important;
+}
+
+#header .header-nav-main.header-nav-main-mobile-dark nav > ul > li > a.active{
+    background: none !important;
+}
