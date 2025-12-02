@@ -111,3 +111,27 @@
 #header .header-nav-main.header-nav-main-mobile-dark nav > ul > li > a.active{
     background: none !important;
 }
+
+.owl-carousel:not(.nav-arrows-1):not(.show-nav-title) .owl-nav button[class*="owl-"]{
+    background-color: #ec993f !important;
+    border-color: #ec993f #ec993f #ec993f !important;
+}
+
+.owl-carousel .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.owl-carousel .card-body {
+    flex-grow: 1;
+}
+
+/* Para asegurar uniformidad en el carrusel */
+.video-card-wrapper {
+    height: 100%;
+}
+
+#header .header-nav.header-nav-links nav > ul li:hover > a{
+    color: #ec993f !important;
+}

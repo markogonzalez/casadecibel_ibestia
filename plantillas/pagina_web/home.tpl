@@ -51,18 +51,17 @@
 							data-plugin-options="{
 								'responsive': {'576': {'items': 1}, '768': {'items': 2}, '992': {'items': 2}, '1200': {'items': 3}, '1440': {'items': 3}},
 								'margin': 20, 
-								'loop': false, 
-								'nav': trye, 
-								'dots': true, 
+								'loop': true, 
+								'nav': true, 
 								'dotsVerticalOffset': '30px', 
 								'autoplay': false, 
-								'autoplayTimeout': 7000
+								'autoplayTimeout': 700
 							}">
 
 							<!-- VIDEO 1 -->
-							<a href="https://vimeo.com/1140521242" class="popup-vimeo text-decoration-none">
+							<a href="https://vimeo.com/1140521242" class="popup-vimeo text-decoration-none video-card-wrapper">
 								<div class="card custom-card-style-1 border-0 border-radius-0 custom-box-shadow-1">
-									<img src="img/video1.jpg"
+									<img src="img/video1.png"
 										class="card-img-top border-radius-0 opacity-hover-8" 
 										alt="Video Ibesia HL 1" />
 									<div class="card-body text-center px-4 py-5">
@@ -81,9 +80,9 @@
 
 							<!-- VIDEO 2 -->
 							<a href="https://vimeo.com/1140653075" 
-							class="popup-vimeo text-decoration-none">
+							class="popup-vimeo text-decoration-none video-card-wrapper">
 								<div class="card custom-card-style-1 border-0 border-radius-0 custom-box-shadow-1">
-									<img src="img/video2.jpg"
+									<img src="img/video2.png"
 										class="card-img-top border-radius-0 opacity-hover-8" 
 										alt="Video Ibesia HL 2" />
 									<div class="card-body text-center px-4 py-5">
@@ -102,9 +101,9 @@
 
 							<!-- VIDEO 3 -->
 							<a href="https://vimeo.com/1140838899" 
-							class="popup-vimeo text-decoration-none">
+							class="popup-vimeo text-decoration-none video-card-wrapper">
 								<div class="card custom-card-style-1 border-0 border-radius-0 custom-box-shadow-1">
-									<img src="img/video3.jpg"
+									<img src="img/video3.png"
 										class="card-img-top border-radius-0 opacity-hover-8" 
 										alt="Video Ibesia HL 3" />
 									<div class="card-body text-center px-4 py-5">
@@ -123,9 +122,9 @@
 
 							<!-- VIDEO 4 -->
 							<a href="https://vimeo.com/1140878825" 
-							class="popup-vimeo text-decoration-none">
+							class="popup-vimeo text-decoration-none video-card-wrapper">
 								<div class="card custom-card-style-1 border-0 border-radius-0 custom-box-shadow-1">
-									<img src="img/video4.jpg"
+									<img src="img/video4.png"
 										class="card-img-top border-radius-0 opacity-hover-8" 
 										alt="Video Ibesia HL 4" />
 									<div class="card-body text-center px-4 py-5">
@@ -144,9 +143,9 @@
 
 							<!-- VIDEO 5 -->
 							<a href="https://vimeo.com/1140987087" 
-							class="popup-vimeo text-decoration-none">
+							class="popup-vimeo text-decoration-none video-card-wrapper">
 								<div class="card custom-card-style-1 border-0 border-radius-0 custom-box-shadow-1">
-									<img src="img/video5.jpg"
+									<img src="img/video5.png"
 										class="card-img-top border-radius-0 opacity-hover-8" 
 										alt="Video Ibesia HL 5" />
 									<div class="card-body text-center px-4 py-5">

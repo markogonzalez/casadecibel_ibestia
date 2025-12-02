@@ -3,7 +3,7 @@
     <div class="footer-copyright border-top border-color-light opacity-75">
         <div class="container text-center py-3">
             <p class="mb-0 text-light small">
-                <span id="year"></span> Ibesia. Todos los derechos reservados.</a>
+                <span id="year"></span> Megalabs. Todos los derechos reservados.</a>
             </p>
         </div>
     </div>
